@@ -1,0 +1,48 @@
+Clasificación de los requerimientos
+• Ejercicio de clasificación
+Plataforma de Comercio Electrónico
+Una tienda en línea necesita una plataforma de comercio electrónico que permita a los clientes buscar
+productos, agregarlos al carrito, realizar pagos en línea y recibir confirmaciones de compra. El sistema debe
+ser accesible desde dispositivos móviles y de escritorio, y debe poder manejar al menos 500 transacciones
+simultáneas sin afectar el rendimiento. Además, los productos deben estar categorizados y los clientes
+deben poder filtrar los resultados por precio, popularidad y disponibilidad en stock.
+El sistema debe enviar automáticamente un correo electrónico de confirmación una vez que se complete la
+compra, y el tiempo de respuesta para la confirmación no debe exceder los 3 segundos. Asimismo, el
+sistema debe garantizar la seguridad de los datos de pago y cumplir con las regulaciones internacionales de
+protección de datos. Se espera que el sitio esté disponible el 99.9% del tiempo, con un diseño intuitivo y fácil
+de usar, y que las páginas carguen en menos de 2 segundos.
+
+REQUERIMIETOS FUNCIONALES  : 
+
+una tienda en linea necesita una plataforma de comercio electrónico
+
+que permite  a los clientes buscar productos y agregarlos al carrito             
+ 
+realizar pagos en linea y resibir confirmaciones de compras 
+
+los productos deben estar  categorizados            <= hice 
+
+los clientes  deben poder filtrar los resultados precio popularidad y disponibilidad en stock
+
+gestionar las cuentas de los usuarios
+ 
+
+
+REQURRIMIENTOS NO FUNCIONALES :
+
+el sistema  debe ser accesible desde dispositivos  moviles y de escritorio 
+
+debe manejar al menos 500 transacciones simultáneas sin afectar el rendimiento
+
+el sistema debe  enviar automáticamente un correo electrónico de confirmacion una ves ques que se complete la compra
+
+el tiempo de respuesta para la confirmacion  no debe exceder los 3 segndos  
+
+el sistema debe de garantizar la  seguridad de los datos de pago y cumplir las regulaciones nacionales de protección de datos 
+
+se espera que el sitio este disponibel el 99.9% del tiempo
+
+con un diceño intuitivo y facil de usar               <= hice
+
+paginas carguen en menos de 2 segndos
+
