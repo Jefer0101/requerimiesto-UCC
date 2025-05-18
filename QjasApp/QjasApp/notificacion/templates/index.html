@@ -1,0 +1,18 @@
+{% extends 'layouts/header.html' %}
+{% load static %}
+
+{% block morecss %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+<link rel="stylesheet" href="{% static 'index.css' %}">
+{% endblock %}
+{% block title %}
+{% endblock %}
+{% block content %}
+<main>
+    <article>
+        <h1>¿Tienes algun reclamo?</h1>
+        <p>Todos tenemos quejas sobre un producto o servicio. No tengas miedo de dejar tu opinion. </br> ¡Solo tienes que clickear este boton!</p>
+        <button>Quejate!</button>
+    </article>
+</main>
+{% endblock %}

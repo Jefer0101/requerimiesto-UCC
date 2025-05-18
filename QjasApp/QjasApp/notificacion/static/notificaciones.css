@@ -1,0 +1,95 @@
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+
+    background-color: #3371ac;
+    box-shadow: inset -5px -5px 5px #173550,
+    inset 5px 5px 5px #0f2941;
+    border: solid 2px #3d3d7a;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    & div{
+        display: flex;
+        justify-content: center;  
+        flex-direction: column;  
+        width: 100%;
+        height: auto;
+        gap: 5px;    
+    }
+}
+
+h1{
+    font-weight: bolder;
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+h5{
+    color: #e6e6e6;
+    font-weight: 200;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+p{
+    color: #9cdfeb;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+button{
+    width: 200px;
+    height: 25px;
+    box-shadow: 2px 2px 0px 2px #131313;
+    background-color: #643434;
+    border: solid 2px #491f1f;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #491f1f;
+    border: solid 2px #643434;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 25px;
+    & h1{
+        margin-top: 20px;
+    }
+    
+
+    
+    
+    
+}
+
+.container-notifications{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+
+main
+article:hover{
+    box-shadow: inset -5px -5px 5px #173550,
+    inset 5px 5px 5px #0f2941;
+    border: solid 2px #3d3d7a;
+    inset-inline-start: 10px;
+}
+
+
+
+
