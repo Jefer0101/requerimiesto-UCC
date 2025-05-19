@@ -23,4 +23,10 @@ urlpatterns = [
     path('', views.home),
     path('notificaciones/', views.notificacion, name='notificacion'),
     path('cnoti/', views.createNotificacion),
+    path(
+  'notificaciones/<int:pk>/delete/',
+  views.deleteNotificacion,
+  name='deleteNotificacion'
+),
+
 ]

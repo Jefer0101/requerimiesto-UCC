@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from .models import Notificacion
 from .forms import NotificacionForm
+from django.contrib import messages
+from django.shortcuts import get_object_or_404, redirect, render
 
 # Create your views here.
 def home(request):
@@ -31,6 +33,8 @@ def createNotificacion(request):
     })
 
 
+
+
 def deleteNotificacion(request, pk):
     noti = get_object_or_404(Notificacion, pk=pk)
     if request.method == 'POST':
@@ -38,3 +42,4 @@ def deleteNotificacion(request, pk):
         messages.success(request, "Notificación eliminada correctamente.")
         return redirect('notificacion')
     return render(request, 'confirm_delete.html', {'notificacion': noti})
+

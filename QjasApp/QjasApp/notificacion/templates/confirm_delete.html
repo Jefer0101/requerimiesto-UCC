@@ -1,0 +1,36 @@
+{% extends 'layouts/header.html' %}
+{% load static %}
+
+{% block title %}Confirmar Eliminación{% endblock %}
+
+{% block content %}
+<main class="pt-8 px-4">
+  <!-- Título -->
+  <h2 class="text-2xl font-semibold mb-4">Eliminar Notificación</h2>
+
+  <!-- Mensaje -->
+  <p class="mb-6">
+    ¿Seguro deseas borrar la notificación  
+    <strong>{{ notificacion.title }}</strong>?
+  </p>
+
+  <!-- Formulario de confirmación -->
+  <form method="post" class="flex space-x-4">
+    {% csrf_token %}
+    <!-- Botón para confirmar borrado -->
+    <button
+      type="submit"
+      class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"
+    >
+      Sí, eliminar
+    </button>
+    <!-- Enlace para cancelar -->
+    <a
+      href="{% url 'notificacion' %}"
+      class="bg-gray-300 hover:bg-gray-400 text-gray-800 px-4 py-2 rounded"
+    >
+      No, cancelar
+    </a>
+  </form>
+</main>
+{% endblock %}
